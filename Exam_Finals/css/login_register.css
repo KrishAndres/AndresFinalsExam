@@ -1,0 +1,94 @@
+/* General Styles for Login and Register */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F4F4F9; /* Light gray */
+    color: #333; /* Neutral dark */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Shared Container Styles */
+form {
+    background: #FFFFFF;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+h1 {
+    text-align: center;
+    color: #1F4E79; /* Dark blue */
+    margin-bottom: 10px;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: normal;
+    color: #555; /* Medium gray */
+}
+
+/* Form Inputs and Labels */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555; /* Medium gray */
+}
+
+input, select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #CCC; /* Light gray */
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    background-color: #1F4E79; /* Dark blue */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #163B5C; /* Slightly darker blue */
+}
+
+/* Error Message Styles */
+p.error {
+    color: #D9534F; /* Red */
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Link Styles */
+p a {
+    color: #1F4E79; /* Dark blue */
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+/* Page-Specific Styles */
+body.login {
+    background-color: #EAF2F8; /* Soft light blue for login page */
+}
+
+body.register {
+    background-color: #F9EEF3; /* Soft pinkish tone for register page */
+}

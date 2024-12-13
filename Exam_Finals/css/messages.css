@@ -1,0 +1,104 @@
+/* General Styles for Messages */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F4F4F9; /* Light gray */
+    margin: 0;
+    padding: 20px;
+    color: #333; /* Neutral dark */
+}
+
+/* Header Styling */
+h1, h2 {
+    text-align: center;
+    color: #1F4E79; /* Dark blue */
+    margin-bottom: 20px;
+}
+
+/* Table Styles */
+table {
+    width: 80%; /* Adjust width to make it more compact */
+    margin: 20px auto; /* Center the table horizontally */
+    border-collapse: collapse;
+    background: #FFFFFF;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px; /* Rounded corners */
+    overflow: hidden; /* Ensures the border radius applies to the entire table */
+}
+
+table th, table td {
+    border: 1px solid #CCC; /* Light gray */
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+table th {
+    background-color: #1F4E79; /* Dark blue */
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+table tr:nth-child(even) {
+    background-color: #F9FAFB; /* Very light gray for even rows */
+}
+
+table tr:hover {
+    background-color: #EAF2F8; /* Soft light blue */
+    color: #333; /* Neutral dark for readability */
+}
+
+/* Form Styles */
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    background: #FFFFFF;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555; /* Medium gray */
+}
+
+input[type="text"], textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #CCC; /* Light gray */
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+button {
+    background-color: #1F4E79; /* Dark blue */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #163B5C; /* Slightly darker blue */
+}
+
+/* Link Styles */
+a {
+    color: #1F4E79; /* Dark blue */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

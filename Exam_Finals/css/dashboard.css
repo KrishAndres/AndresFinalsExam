@@ -1,0 +1,118 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #F4F4F9; /* Light gray */
+    margin: 0;
+    padding: 20px;
+    color: #333; /* Dark gray */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #FFFFFF; /* White */
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Headings */
+h1, h2, h3 {
+    text-align: center;
+    color: #444; /* Medium gray */
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.4em;
+    border-bottom: 1px solid #DDD; /* Light gray border */
+    padding-bottom: 8px;
+}
+
+/* Form Styles */
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555; /* Slightly lighter gray */
+}
+
+input[type="text"],
+textarea {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #CCC; /* Light gray border */
+    border-radius: 4px;
+    font-size: 1em;
+    color: #333; /* Dark gray text */
+}
+
+input[type="text"]:focus,
+textarea:focus {
+    border-color: #888; /* Medium gray on focus */
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Subtle focus shadow */
+}
+
+button {
+    background-color: #007BFF; /* Professional blue */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow on hover */
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 0.95em;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #DDD; /* Light gray */
+}
+
+th {
+    background-color: #F9FAFB; /* Slightly darker white */
+    color: #333; /* Dark gray */
+}
+
+tr:hover {
+    background-color: #F1F5F9; /* Light blue-gray hover effect */
+}
+
+/* Link Styles */
+a {
+    color: #007BFF; /* Professional blue */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Logout Button */
+form button[type="submit"] {
+    background-color: #DC3545; /* Subtle red for actions */
+}
+
+form button[type="submit"]:hover {
+    background-color: #A71D2A; /* Darker red */
+}
